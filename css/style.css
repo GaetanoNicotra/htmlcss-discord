@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Atkinson Hyperlegible;
 }
+
 /*sezione header*/
 
 .backg-azzurro {
-    background-color:#255EE9;
+    background-color: #255EE9;
     justify-content: center;
     display: flex;
 }
@@ -48,7 +49,7 @@ ul>li {
     padding: 5px;
 }
 
-.border-radius{
+.border-radius {
     border-radius: 18px;
     background-color: white;
     padding: 12px;
@@ -57,32 +58,32 @@ ul>li {
 
 /*sezione rettangolo rosa*/
 
-.backg-img{
-height: 550px;
-background-size: cover;
-background-image:url(../img/jumbo.png);
+.backg-img {
+    height: 550px;
+    background-size: cover;
+    background-image: url(../img/jumbo.png);
 }
 
-.jumbo{
+.jumbo {
     color: white;
     text-align: center;
     font-size: 60px;
-    height: 200px; 
+    height: 200px;
 }
 
-.text1{
+.text1 {
     text-align: center;
     font-size: 20px;
     width: 800px;
     justify-content: center;
 }
 
-.padding{
+.padding {
     padding: 120px;
     font-weight: bold;
 }
 
-.button2{
+.button2 {
     color: rgb(0, 0, 0);
     background-color: white;
     border: none;
@@ -90,7 +91,7 @@ background-image:url(../img/jumbo.png);
     padding: 15px;
 }
 
-.button3{
+.button3 {
     color: white;
     background-color: black;
     border: none;
@@ -121,14 +122,14 @@ background-image:url(../img/jumbo.png);
     margin-top: 30px;
 }
 
-.testo2{
-  font-weight: bolder;
-  font-size: 35px;
-  text-align: left;
-  margin-top: 45px;
+.testo2 {
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: left;
+    margin-top: 45px;
 }
 
-.testo3{
+.testo3 {
     margin-top: 25px;
 }
 
@@ -143,23 +144,69 @@ background-image:url(../img/jumbo.png);
 
 
 .rettangolo3 {
-    background-color: #1E90FF;
-    height: 400px;
+    background-image: url(../img/item2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
     width: 42%;
-    border: dotted black;
     margin-top: 35px;
     order: 1;
 }
 
+
 .rettangolo4 {
-    background-color: #FFC0C9;
-    height: 400px;
+    height: 450px;
     width: 18%;
-    border: dotted black;
     margin-top: 35px;
 }
 
+.testo4 {
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: left;
+    margin-top: 45px;
+}
 
+.testo5 {
+    margin-top: 25px;
+}
+
+/*sezione rettangoli uniti tipo speciale*/
+
+.special{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.rettangolo5 {
+    height: 450px;
+    width: 18%;
+    margin-top: 35px;
+    order: 1;
+}
+
+.rettangolo6 {
+    background-image: url(../img/item3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 42%;
+    margin-top: 35px;
+    order: 1;
+}
+
+.testo6{
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: left;
+    margin-top: 45px;
+}
+
+.testo7{
+    margin-top: 25px;
+}
 /*sezione rettangolo verde*/
 
 .backg-gray2 {
@@ -168,14 +215,27 @@ background-image:url(../img/jumbo.png);
     padding-top: 45px;
 }
 
-.rettangolo5 {
-    background-color: #218B21;
+.rettangolo-verde {
     height: 600px;
     width: 50%;
-    border: dotted black;
     margin: auto;
 }
 
+.testo-grande{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.testo-grande2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+}
 /*sezione rettangoli uniti tipo 3*/
 
 .backg-darkgray {
@@ -185,19 +245,11 @@ background-image:url(../img/jumbo.png);
     padding-bottom: 25px;
 }
 
-.rettangolo6 {
+.rettangolo7 {
     background-color: #FFC0C9;
     height: 400px;
     width: 10%;
     border: dotted black;
-    margin-top: 12px;
-}
-
-.rettangolo7 {
-    background-color: #20B3AA;
-    height: 400px;
-    width: 10%;
-    border: dotted white;
     margin-top: 12px;
 }
 
@@ -218,6 +270,14 @@ background-image:url(../img/jumbo.png);
 }
 
 .rettangolo10 {
+    background-color: #20B3AA;
+    height: 400px;
+    width: 10%;
+    border: dotted white;
+    margin-top: 12px;
+}
+
+.rettangolo11 {
     background-color: #20B3AA;
     height: 400px;
     width: 10%;
