@@ -107,19 +107,29 @@ background-image:url(../img/jumbo.png);
 }
 
 .rettangolo1 {
-    background-color: #1E90FF;
+    background-image: url(../img/item1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
     height: 400px;
     width: 42%;
-    border: dotted black;
     margin-top: 35px;
 }
 
 .rettangolo2 {
-    background-color: #FFC0C9;
     height: 400px;
     width: 18%;
-    border: dotted black;
-    margin-top: 35px;
+    margin-top: 30px;
+}
+
+.testo2{
+  font-weight: bolder;
+  font-size: 35px;
+  text-align: left;
+  margin-top: 45px;
+}
+
+.testo3{
+    margin-top: 25px;
 }
 
 /*sezione rettangoli uniti tipo 2*/
