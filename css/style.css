@@ -10,7 +10,7 @@ body {
 
 /*sezione header*/
 
-.backg-azzurro {
+.backg-main {
     background-color: #255EE9;
     justify-content: center;
     display: flex;
@@ -23,7 +23,7 @@ body {
     display: flex;
 }
 
-ul.lista-header {
+ul.lista-header > li {
     list-style: none;
     display: inline-block;
     padding: 10px;
@@ -55,9 +55,9 @@ ul.lista-header {
     border: none;
 }
 
-/*sezione rettangolo rosa*/
+/*prima sezione del main*/
 
-.backg-img {
+.backg-img-main{
     height: 550px;
     background-size: cover;
     background-image: url(../img/jumbo.png);
@@ -98,7 +98,7 @@ ul.lista-header {
     padding: 15px;
 }
 
-/*Sezione rettangoli uniti tipo1*/
+/*Seconda sezione del main*/
 
 .backg-white {
     display: flex;
@@ -132,7 +132,7 @@ ul.lista-header {
     margin-top: 25px;
 }
 
-/*sezione rettangoli uniti tipo 2*/
+/*terza sezione del main*/
 
 .backg-gray {
     background-color: #D3D3D3;
@@ -170,7 +170,7 @@ ul.lista-header {
     margin-top: 25px;
 }
 
-/*sezione rettangoli uniti tipo speciale*/
+/*quarta sezione del main*/
 
 .special {
     background-color: white;
@@ -207,7 +207,7 @@ ul.lista-header {
     margin-top: 25px;
 }
 
-/*sezione rettangolo verde*/
+/*quinta sezione del main*/
 
 .backg-gray2 {
     background-color: #D3D3D3;
@@ -251,7 +251,7 @@ ul.lista-header {
     padding: 15px;
 }
 
-/*sezione rettangoli uniti tipo 3*/
+/*sesta sezione del main*/
 
 .backg-darkgray {
     background-color: #23272A;
@@ -265,7 +265,6 @@ ul.lista-header {
     color: #7289DA;
     font-size: 25px;
     font-weight: bolder;
-    height: 400px;
     width: 10%;
     margin-right: 40px;
 }
@@ -276,7 +275,6 @@ ul.lista-header {
 }
 
 .rettangolo8 {
-    height: 400px;
     width: 10%;
     margin-top: 12px;
 }
@@ -343,13 +341,10 @@ ul.lista-header {
     height: 60px;
     width: 50%;
     margin: auto;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.logo {}
 
 .button-footer {
     color: white;
