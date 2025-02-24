@@ -23,7 +23,7 @@ body {
     display: flex;
 }
 
-ul.lista-header > li {
+ul.lista-header>li {
     list-style: none;
     display: inline-block;
     padding: 10px;
@@ -57,8 +57,8 @@ ul.lista-header > li {
 
 /*prima sezione del main*/
 
-.backg-img-main{
-    height: 550px;
+.backg-img-main {
+    height: 600px;
     background-size: cover;
     background-image: url(../img/jumbo.png);
 }
@@ -71,14 +71,16 @@ ul.lista-header > li {
 }
 
 .text1 {
+    display: inline-block;
     text-align: center;
     font-size: 20px;
     width: 800px;
-    justify-content: center;
+    line-height: 2;
 }
 
 .padding {
-    padding: 120px;
+    padding-bottom: 50px;
+    padding-top: 120px;
     font-weight: bold;
 }
 
